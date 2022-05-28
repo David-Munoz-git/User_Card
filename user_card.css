@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: cursive;
+}
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    min-height: 350px;
+    width: 50%;
+}
+.main-header {
+    background-color: aqua;
+    min-height: 100px;
+}
+#user-logo {
+    position: relative;
+    width: 100px;
+    top: 50px;
+    left: 25px;
+}
+h1 {
+    position: relative;
+    top: 40px;
+    left: 10px;
+} 
+.location {
+    display: flex;
+}
+#map-logo {
+    width: 15px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.city {
+    position: relative;
+    top: 52px;
+    left: 35px;
+}
+.titles {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 60px;
+    left: 25px;
+}
+
+.edit-profile {
+    display: flex;
+    justify-items: baseline;
+    align-items: baseline;
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+#gear {
+    width: 20px;
+    margin: 10px;
+}
